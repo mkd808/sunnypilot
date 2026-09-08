@@ -1,0 +1,124 @@
+./launch_openpilot.sh: line 9: /sys/firmware/devicetree/base/model: No such file or directory
+ln: failed to create symbolic link '/data/pythonpath': No such file or directory
+error connecting to /tmp/tmux-1000/default (No such file or directory)
+RAYLIB STATIC 5.5.0.4 LOADED
+kj/filesystem-disk-unix.c++:1734: warning: PWD environment variable doesn't match current directory; pwd = /home/hp/dev/mkd808/sunnypilot/system/manager
+scons: Reading SConscript files ...
+scons: done reading SConscript files.
+scons: Building targets ...
+Building compilation database compile_commands.json
+Retrieved `selfdrive/modeld/models/dmonitoring_model_tinygrad.pkl' from cache
+Retrieved `selfdrive/modeld/models/driving_policy_tinygrad.pkl' from cache
+Retrieved `selfdrive/modeld/models/driving_vision_tinygrad.pkl' from cache
+scons: done building targets.
+kj/filesystem-disk-unix.c++:1734: warning: PWD environment variable doesn't match current directory; pwd = /home/hp/dev/mkd808/sunnypilot/system/manager
+system/loggerd/bootlog.cc: bootlog to /home/hp/.comma/media/0/realdata/boot/00000001--87fcac4c6e.zst
+missing public key
+RAYLIB STATIC 5.5.0.4 LOADED
+No cached model data available
+Public key not found, setting dongle ID to unregistered.
+SunnyLinkId: UnregisteredDevice
+Error getting adapter type 2: Object path ('T') must start with /
+Traceback (most recent call last):
+  File "/home/hp/dev/mkd808/sunnypilot/openpilot/system/ui/lib/wifi_manager.py", line 516, in _get_adapter
+    dev_addr = DBusAddress(device_path, bus_name=NM, interface=NM_DEVICE_IFACE)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hp/dev/mkd808/sunnypilot/.venv/lib/python3.12/site-packages/jeepney/wrappers.py", line 60, in __init__
+    ObjectPathType().check_data(object_path)
+  File "/home/hp/dev/mkd808/sunnypilot/.venv/lib/python3.12/site-packages/jeepney/low_level.py", line 185, in check_data
+    raise ValueError(f"Object path ({data!r}) must start with /")
+ValueError: Object path ('T') must start with /
+Error finding LTE connection: Object path ('T') must start with /
+Traceback (most recent call last):
+  File "/home/hp/dev/mkd808/sunnypilot/openpilot/system/ui/lib/wifi_manager.py", line 1001, in _get_lte_connection_path
+    settings = self._get_connection_settings(conn_path)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hp/dev/mkd808/sunnypilot/openpilot/system/ui/lib/wifi_manager.py", line 582, in _get_connection_settings
+    conn_addr = DBusAddress(conn_path, bus_name=NM, interface=NM_CONNECTION_IFACE)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hp/dev/mkd808/sunnypilot/.venv/lib/python3.12/site-packages/jeepney/wrappers.py", line 60, in __init__
+    ObjectPathType().check_data(object_path)
+  File "/home/hp/dev/mkd808/sunnypilot/.venv/lib/python3.12/site-packages/jeepney/low_level.py", line 185, in check_data
+    raise ValueError(f"Object path ({data!r}) must start with /")
+ValueError: Object path ('T') must start with /
+No LTE connection found
+Error getting adapter type 2: Object path ('T') must start with /
+Traceback (most recent call last):
+  File "/home/hp/dev/mkd808/sunnypilot/openpilot/system/ui/lib/wifi_manager.py", line 516, in _get_adapter
+    dev_addr = DBusAddress(device_path, bus_name=NM, interface=NM_DEVICE_IFACE)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hp/dev/mkd808/sunnypilot/.venv/lib/python3.12/site-packages/jeepney/wrappers.py", line 60, in __init__
+    ObjectPathType().check_data(object_path)
+  File "/home/hp/dev/mkd808/sunnypilot/.venv/lib/python3.12/site-packages/jeepney/low_level.py", line 185, in check_data
+    raise ValueError(f"Object path ({data!r}) must start with /")
+ValueError: Object path ('T') must start with /
+Error getting adapter type 2: Object path ('T') must start with /
+Traceback (most recent call last):
+  File "/home/hp/dev/mkd808/sunnypilot/openpilot/system/ui/lib/wifi_manager.py", line 516, in _get_adapter
+    dev_addr = DBusAddress(device_path, bus_name=NM, interface=NM_DEVICE_IFACE)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hp/dev/mkd808/sunnypilot/.venv/lib/python3.12/site-packages/jeepney/wrappers.py", line 60, in __init__
+    ObjectPathType().check_data(object_path)
+  File "/home/hp/dev/mkd808/sunnypilot/.venv/lib/python3.12/site-packages/jeepney/low_level.py", line 185, in check_data
+    raise ValueError(f"Object path ({data!r}) must start with /")
+ValueError: Object path ('T') must start with /
+Error getting adapter type 2: Object path ('T') must start with /
+Traceback (most recent call last):
+  File "/home/hp/dev/mkd808/sunnypilot/openpilot/system/ui/lib/wifi_manager.py", line 516, in _get_adapter
+    dev_addr = DBusAddress(device_path, bus_name=NM, interface=NM_DEVICE_IFACE)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hp/dev/mkd808/sunnypilot/.venv/lib/python3.12/site-packages/jeepney/wrappers.py", line 60, in __init__
+    ObjectPathType().check_data(object_path)
+  File "/home/hp/dev/mkd808/sunnypilot/.venv/lib/python3.12/site-packages/jeepney/low_level.py", line 185, in check_data
+    raise ValueError(f"Object path ({data!r}) must start with /")
+ValueError: Object path ('T') must start with /
+Error getting adapter type 2: Object path ('T') must start with /
+Traceback (most recent call last):
+  File "/home/hp/dev/mkd808/sunnypilot/openpilot/system/ui/lib/wifi_manager.py", line 516, in _get_adapter
+    dev_addr = DBusAddress(device_path, bus_name=NM, interface=NM_DEVICE_IFACE)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hp/dev/mkd808/sunnypilot/.venv/lib/python3.12/site-packages/jeepney/wrappers.py", line 60, in __init__
+    ObjectPathType().check_data(object_path)
+  File "/home/hp/dev/mkd808/sunnypilot/.venv/lib/python3.12/site-packages/jeepney/low_level.py", line 185, in check_data
+    raise ValueError(f"Object path ({data!r}) must start with /")
+ValueError: Object path ('T') must start with /
+Error getting adapter type 2: Object path ('T') must start with /
+Traceback (most recent call last):
+  File "/home/hp/dev/mkd808/sunnypilot/openpilot/system/ui/lib/wifi_manager.py", line 516, in _get_adapter
+    dev_addr = DBusAddress(device_path, bus_name=NM, interface=NM_DEVICE_IFACE)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hp/dev/mkd808/sunnypilot/.venv/lib/python3.12/site-packages/jeepney/wrappers.py", line 60, in __init__
+    ObjectPathType().check_data(object_path)
+  File "/home/hp/dev/mkd808/sunnypilot/.venv/lib/python3.12/site-packages/jeepney/low_level.py", line 185, in check_data
+    raise ValueError(f"Object path ({data!r}) must start with /")
+ValueError: Object path ('T') must start with /
+Error getting adapter type 2: Object path ('T') must start with /
+Traceback (most recent call last):
+  File "/home/hp/dev/mkd808/sunnypilot/openpilot/system/ui/lib/wifi_manager.py", line 516, in _get_adapter
+    dev_addr = DBusAddress(device_path, bus_name=NM, interface=NM_DEVICE_IFACE)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hp/dev/mkd808/sunnypilot/.venv/lib/python3.12/site-packages/jeepney/wrappers.py", line 60, in __init__
+    ObjectPathType().check_data(object_path)
+  File "/home/hp/dev/mkd808/sunnypilot/.venv/lib/python3.12/site-packages/jeepney/low_level.py", line 185, in check_data
+    raise ValueError(f"Object path ({data!r}) must start with /")
+ValueError: Object path ('T') must start with /
+Error getting adapter type 2: Object path ('T') must start with /
+Traceback (most recent call last):
+  File "/home/hp/dev/mkd808/sunnypilot/openpilot/system/ui/lib/wifi_manager.py", line 516, in _get_adapter
+    dev_addr = DBusAddress(device_path, bus_name=NM, interface=NM_DEVICE_IFACE)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hp/dev/mkd808/sunnypilot/.venv/lib/python3.12/site-packages/jeepney/wrappers.py", line 60, in __init__
+    ObjectPathType().check_data(object_path)
+  File "/home/hp/dev/mkd808/sunnypilot/.venv/lib/python3.12/site-packages/jeepney/low_level.py", line 185, in check_data
+    raise ValueError(f"Object path ({data!r}) must start with /")
+ValueError: Object path ('T') must start with /
+Error getting adapter type 2: Object path ('T') must start with /
+Traceback (most recent call last):
+  File "/home/hp/dev/mkd808/sunnypilot/openpilot/system/ui/lib/wifi_manager.py", line 516, in _get_adapter
+    dev_addr = DBusAddress(device_path, bus_name=NM, interface=NM_DEVICE_IFACE)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hp/dev/mkd808/sunnypilot/.venv/lib/python3.12/site-packages/jeepney/wrappers.py", line 60, in __init__
+    ObjectPathType().check_data(object_path)
+  File "/home/hp/dev/mkd808/sunnypilot/.venv/lib/python3.12/site-packages/jeepney/low_level.py", line 185, in check_data
+    raise ValueError(f"Object path ({data!r}) must start with /")
+ValueError: Object path ('T') must start with /
